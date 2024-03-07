@@ -16,6 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
+                error 
                 sh './output'
             }
         }
